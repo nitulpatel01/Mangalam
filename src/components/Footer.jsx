@@ -75,9 +75,15 @@ const Footer = () => {
 
             <div className="space-y-5">
               {units.map((unit, idx) => (
-                <div key={idx} className="space-y-2">
+                <div
+                  key={idx}
+                  className="space-y-2"
+                >
                   {unit.companies.map((company, i) => (
-                    <h5 className="text-cyan-400 text-sm font-semibold">
+                    <h5
+                      key={company || i}
+                      className="text-cyan-400 text-sm font-semibold"
+                    >
                       {company}
                     </h5>
                   ))}

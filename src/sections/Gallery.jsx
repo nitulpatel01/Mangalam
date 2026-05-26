@@ -16,7 +16,7 @@ const pattern = Object.values(
 ).map((img) => img.default);
 
 const factory = Object.values(
-  import.meta.glob("../assets/factory/*.{jpg,png,jpeg,webp}", {
+  import.meta.glob("../assets/Factory/*.{jpg,png,jpeg,webp}", {
     eager: true,
   })
 ).map((img) => img.default);
