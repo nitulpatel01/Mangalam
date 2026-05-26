@@ -23,8 +23,7 @@ const factory = Object.values(
 ).map((img) => img.default);
 
 
-// comments
-
+// comments  
 
 const oldmemories = Object.values(
   import.meta.glob("../assets/old-memories/*.{jpg,png,jpeg,webp}", {
