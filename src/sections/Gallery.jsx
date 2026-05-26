@@ -3,7 +3,6 @@ import Section from "../components/Section";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
-// Import images
 const heavyFabrication = Object.values(
   import.meta.glob("../assets/heavy-fabrication/*.{jpg,png,jpeg,webp}", {
     eager: true,
@@ -21,9 +20,6 @@ const factory = Object.values(
     eager: true,
   })
 ).map((img) => img.default);
-
-
-// comments  
 
 const oldmemories = Object.values(
   import.meta.glob("../assets/old-memories/*.{jpg,png,jpeg,webp}", {
