@@ -7,7 +7,7 @@ import {
   Facebook,
   Instagram,
 } from "lucide-react";
-import { units, companies, socialMedia } from "../data/contactData";
+import { units, socialMedia } from "../data/contactData";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -125,7 +125,7 @@ const Footer = () => {
                     </div>
                   </div>
 
-                  {idx !== companies.length - 1 && (
+                  {idx !== units.length - 1 && (
                     <div className="border-b border-slate-800 pt-2"></div>
                   )}
                 </div>

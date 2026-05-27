@@ -1,28 +1,28 @@
 import { Linkedin, Facebook, Instagram } from "lucide-react";
 
-export const companies = [
-  {
-    name: "Mangalam Industry",
-    address:
-      "Plot No 6A/1, Opp. Yogesver Temple, Ruvapari Road, Bhavnagar, Gujarat - 364001",
-    phone: ["9426029007"],
-    email: ["manglam_ind@rediffmail.com"],
-  },
-  {
-    name: "Mangalam M.Tech Industries",
-    address:
-      "Plot No 6A/1, Opp. Yogesver Temple, Ruvapari Road, Bhavnagar, Gujarat - 364001",
-    phone: ["9429164970"],
-    email: ["manglam.m.tech@gmail.com"],
-  },
-  {
-    name: "Mangalam Traders",
-    address:
-      "Vadva Talawadi, Opp.Mulubhai's Garage, Bhalwalo Khocho, Bhavnagar, Gujarat - 364001",
-    phone: ["9429164980"],
-    email: ["dbsiddh@gmail.com"],
-  },
-];
+// export const companies = [
+//   {
+//     name: "Mangalam Industry",
+//     address:
+//       "Plot No 6A/1, Opp. Yogesver Temple, Ruvapari Road, Bhavnagar, Gujarat - 364001",
+//     phone: ["9426029007"],
+//     email: ["manglam_ind@gmail.com"],
+//   },
+//   {
+//     name: "Mangalam M.Tech Industries",
+//     address:
+//       "Plot No 6A/1, Opp. Yogesver Temple, Ruvapari Road, Bhavnagar, Gujarat - 364001",
+//     phone: ["9429164970"],
+//     email: ["manglam.m.tech@gmail.com"],
+//   },
+//   {
+//     name: "Mangalam Traders",
+//     address:
+//       "Vadva Talawadi, Opp.Mulubhai's Garage, Bhalwalo Khocho, Bhavnagar, Gujarat - 364001",
+//     phone: ["9429164980"],
+//     email: ["dbsiddh@gmail.com"],
+//   },
+// ];
 
 export const units = [
   {
@@ -62,25 +62,25 @@ export const contactPersons = [
     name: "Chetan Siddhapura",
     company: "Manglam Industry",
     //phone: "",
-    mail: "chetan@mangalam.com",
+    mail: "chetan@mangalamind.com",
   },
   {
     name: "Ketan Siddhapura",
     company: "Manglam Engineering Ind",
     phone: "9924305240",
-    mail: "ketan@mangalam.com",
+    mail: "ketan@mangalamind.com",
   },
   {
     name: "Dharmesh Siddhapura",
     company: "Manglam Traders",
     phone: "9429164980",
-    mail: "dharmesh@mangalam.com",
+    mail: "dharmesh@mangalamind.com",
   },
   {
     name: "Akash Siddhapura",
     company: "Manglam M.Tech. Industries",
     phone: "9429164970",
-    mail: "akash@mangalam.com",
+    mail: "akash@mangalamind.com",
   },
 ];
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Section from "../components/Section";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { motion } from "framer-motion";
-import { companies, units, contactPersons } from "../data/contactData";
+import { units, contactPersons } from "../data/contactData";
 import axios from "axios";
 
 const Contact = () => {
