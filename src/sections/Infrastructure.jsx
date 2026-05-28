@@ -8,9 +8,9 @@ const Infrastructure = () => {
   const [activeTab, setActiveTab] = useState("conventional");
 
   const tabs = [
-    //{ id: "cnc", label: "CNC / VMC", icon: Cpu },
     { id: "conventional", label: "Conventional", icon: Cog },
     { id: "3d", label: "3D Printing", icon: Printer },
+    //{ id: "cnc", label: "CNC / VMC", icon: Cpu },
   ];
 
   const activeIcon = tabs.find((t) => t.id === activeTab).icon;
