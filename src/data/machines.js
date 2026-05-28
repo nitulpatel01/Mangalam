@@ -53,7 +53,7 @@ export const machines = {
     },
     {
       name: "VMC",
-      detail: "Capacity: Max-Size: 1300 x 700 x 700",
+      detail: "Capacity: Max-Size: 1300 x 700 x 700 MM",
       desc: "",
       img: getImage("machines_6", 5),
     },
