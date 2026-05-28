@@ -17,32 +17,32 @@ export const imagesGlob = import.meta.glob(
 export const allImages = Object.values(imagesGlob).map((img) => img.default);
 
 export const machines = {
-  cnc: [
-    {
-      name: "BFW - CHAKRA BMV60",
-      detail: "Capacity: 1000 x 600 x 600 mm",
-      desc: "3 & 4 axis high precision VMC for complex and heavy-duty machining.",
-      img: getImage("machines_1", 0),
-    },
-    {
-      name: "BFW - AGNI V4",
-      detail: "Capacity: 600 x 400 x 400 mm",
-      desc: "3 & 4 axis compact VMC for accurate small to medium components.",
-      img: getImage("machines_2", 1),
-    },
-    {
-      name: "COSMOS - CVM1370",
-      detail: "Capacity: 1300 x 700 x 700 mm",
-      desc: "3 axis large capacity VMC for heavy and detailed machining.",
-      img: getImage("machines_3", 2),
-    },
-    {
-      name: "HAAS - CNC VMC",
-      detail: "Capacity: 1000 x 500 x 500 mm",
-      desc: "3 axis reliable VMC ensuring consistent precision performance.",
-      img: getImage("machines_4", 3),
-    },
-  ],
+  // cnc: [
+  //   {
+  //     name: "BFW - CHAKRA BMV60",
+  //     detail: "Capacity: 1000 x 600 x 600 mm",
+  //     desc: "3 & 4 axis high precision VMC for complex and heavy-duty machining.",
+  //     img: getImage("machines_1", 0),
+  //   },
+  //   {
+  //     name: "BFW - AGNI V4",
+  //     detail: "Capacity: 600 x 400 x 400 mm",
+  //     desc: "3 & 4 axis compact VMC for accurate small to medium components.",
+  //     img: getImage("machines_2", 1),
+  //   },
+  //   {
+  //     name: "COSMOS - CVM1370",
+  //     detail: "Capacity: 1300 x 700 x 700 mm",
+  //     desc: "3 axis large capacity VMC for heavy and detailed machining.",
+  //     img: getImage("machines_3", 2),
+  //   },
+  //   {
+  //     name: "HAAS - CNC VMC",
+  //     detail: "Capacity: 1000 x 500 x 500 mm",
+  //     desc: "3 axis reliable VMC ensuring consistent precision performance.",
+  //     img: getImage("machines_4", 3),
+  //   },
+  // ],
 
   conventional: [
     {

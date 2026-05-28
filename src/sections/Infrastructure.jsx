@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Section from "../components/Section";
 import { motion, AnimatePresence } from "framer-motion";
 import { Cpu, Printer, Cog } from "lucide-react";
-import { machines } from "../data/machines";
+import { machines } from "../data/machines.js";
 
 const Infrastructure = () => {
   const [activeTab, setActiveTab] = useState("conventional");
