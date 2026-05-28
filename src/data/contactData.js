@@ -34,8 +34,8 @@ export const units = [
     ],
     address: "Plot No 6A/1, Opp. Yogesver Temple, Ruvapari Road, Bhavnagar, Gujarat - 364001",
     phone: [
-      "+91 9426029007",
-      "+91 9876543210",
+      "+91 7778881656",
+      "+91 9924305240",
     ],
     email: [
       "manglam_ind@rediffmail.com",
@@ -79,7 +79,7 @@ export const contactPersons = [
   {
     name: "Akash Siddhapura",
     company: "Manglam M.Tech. Industries",
-    phone: "9429164970",
+    phone: "7778881656",
     mail: "akash@mangalamind.com",
   },
 ];

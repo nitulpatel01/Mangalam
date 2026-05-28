@@ -30,7 +30,7 @@ const About = () => {
               Engineering <span className="text-cyan-400">Excellence</span>{" "}
               <br />
               <span className="text-slate-400 text-3xl">
-                Built Over 32+ Years
+                Built Over 40+ Years
               </span>
               <div className="grid grid-cols-2 mt-3 md:grid-cols-2 gap-6">
                 {stats.map((item, index) => (

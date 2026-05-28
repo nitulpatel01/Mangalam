@@ -52,22 +52,16 @@ export const machines = {
       img: getImage("machines_5", 4),
     },
     {
-      name: "Radial Drill Machine",
-      detail: "Capacity: 32 mm",
-      desc: "Heavy-duty drilling machine for large workpieces.",
+      name: "VMC",
+      detail: "Capacity: Max-Size: 30 x 700 x 700",
+      desc: "",
       img: getImage("machines_6", 5),
     },
     {
-      name: "Conventional Milling Machine",
-      detail: "Quantity: 2 Machines",
-      desc: "Manual milling for versatile cutting and shaping operations.",
+      name: "Cnockout Vibration Machine",
+      detail: "Capacity: 3-mtr x 2-mtr To 3-mtr x 4-mtr",
+      desc: "",
       img: getImage("machines_1", 6),
-    },
-    {
-      name: "Shaping Machine",
-      detail: "Capacity: 400 mm",
-      desc: "Ideal for producing flat surfaces, slots, and keyways.",
-      img: getImage("machines_2", 7),
     },
   ],
 

@@ -21,7 +21,7 @@ const factory = Object.values(
   })
 ).map((img) => img.default);
 
-const oldmemories = Object.values(
+const mangalamTraders = Object.values(
   import.meta.glob("../assets/old-memories/*.{jpg,png,jpeg,webp}", {
     eager: true,
   })
@@ -38,8 +38,8 @@ const categories = [
   { name: "Heavy Fabrication", images: heavyFabrication },
   { name: "Patterns", images: pattern },
   { name: "Factory", images: factory },
-  { name: "Old-Memories", images: oldmemories },
-  { name: "Tools", images: tools },
+  { name: "Mangalam Traders", images: mangalamTraders },
+  { name: "3D Printing parts", images: tools },
 ];
 
 const Gallery = () => {

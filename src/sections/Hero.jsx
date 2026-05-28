@@ -115,7 +115,7 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
           className="inline-block py-1 px-4 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-sm font-semibold tracking-widest mb-8 backdrop-blur-sm hero-badge"
         >
-          ISO CERTIFIED | 32+ YEARS EXPERIENCE | CNC PRECISION
+          ISO CERTIFIED | 40+ YEARS EXPERIENCE | CNC PRECISION
         </motion.span>
 
         {/* Heading */}
@@ -155,7 +155,7 @@ const Hero = () => {
           className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto font-light hero-text"
         >
           Specializing in CNC machining, mould manufacturing, and precision
-          components with 32+ years of engineering excellence.
+          components with 40+ years of engineering excellence.
         </motion.p>
 
         {/* Buttons */}

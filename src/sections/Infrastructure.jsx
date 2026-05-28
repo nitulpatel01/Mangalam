@@ -5,10 +5,10 @@ import { Cpu, Printer, Cog } from "lucide-react";
 import { machines } from "../data/machines";
 
 const Infrastructure = () => {
-  const [activeTab, setActiveTab] = useState("cnc");
+  const [activeTab, setActiveTab] = useState("conventional");
 
   const tabs = [
-    { id: "cnc", label: "CNC / VMC", icon: Cpu },
+    //{ id: "cnc", label: "CNC / VMC", icon: Cpu },
     { id: "conventional", label: "Conventional", icon: Cog },
     { id: "3d", label: "3D Printing", icon: Printer },
   ];

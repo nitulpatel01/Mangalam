@@ -1,6 +1,6 @@
 export const stats = [
   { label: "Facility Area", value: "2700 sq. ft" },
-  { label: "Experience", value: "32+ Years" },
+  { label: "Experience", value: "40+ Years" },
 ];
 
 export const features = [
