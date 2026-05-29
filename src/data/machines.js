@@ -1,5 +1,5 @@
 const tools = Object.values(
-  import.meta.glob("../assets/Tools/*.{jpg,png,jpeg,webp}", {
+  import.meta.glob("../assets/tools/*.{jpg,png,jpeg,webp}", {
     eager: true,
   })
 ).map((img) => img.default);
