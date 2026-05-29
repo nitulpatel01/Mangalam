@@ -91,10 +91,10 @@ export const socialMedia = [
   },
   {
     Icon: Facebook,
-    Link: "#",
+    Link: "https://www.facebook.com/profile.php?id=61590621264629",
   },
   {
     Icon: Instagram,
-    Link: "#",
+    Link: "https://www.instagram.com/mangalam.ind/",
   },
 ];
