@@ -10,7 +10,7 @@ const Infrastructure = () => {
   const tabs = [
     { id: "conventional", label: "Conventional", icon: Cog },
     { id: "3d", label: "3D Printing", icon: Printer },
-    //{ id: "cnc", label: "CNC / VMC", icon: Cpu },
+    { id: "cnc", label: "CNC / VMC", icon: Cpu },
   ];
 
   const activeIcon = tabs.find((t) => t.id === activeTab).icon;
