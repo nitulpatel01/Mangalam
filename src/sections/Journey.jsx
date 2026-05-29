@@ -54,8 +54,8 @@ const Journey = () => {
                         40+ Years of <span className="text-cyan-400">Manufacturing Excellence</span>
                     </h2>
                     <p className="text-slate-400 mt-4 max-w-2xl mx-auto">
-                        From a small workshop in 1984 to a modern precision manufacturing hub —
-                        every milestone reflects our commitment to quality and innovation.
+                        What began as a small workshop in 1984 has grown into a modern precision
+                        manufacturing powerhouse, built on decades of trust, innovation, and engineering excellence.
                     </p>
                 </motion.div>
 

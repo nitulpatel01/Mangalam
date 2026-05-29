@@ -31,7 +31,7 @@ export const machines = {
       img: getImage("machines_6", 5),
     },
     {
-      name: "Cnockout Vibration Machine",
+      name: "Knockout Vibration Machine",
       detail: "Capacity: 3-mtr x 2-mtr To 3-mtr x 4-mtr",
       desc: "",
       img: getImage("machines_1", 6),

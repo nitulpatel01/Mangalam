@@ -1,3 +1,4 @@
+// @/sections/Contact.jsx
 import React, { useState } from "react";
 import Section from "../components/Section";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
@@ -85,8 +86,7 @@ const Contact = () => {
     }
 
     // Send data if valid
-    axios
-      .post("https://jsonplaceholder.typicode.com/posts", formData)
+    axios.post("http://localhost:5000/send-mail", formData)
       .then((res) => {
         setResponseMsg("Form submitted! ");
         setTimeout(() => setResponseMsg(""), 5000);
